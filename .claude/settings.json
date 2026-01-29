@@ -1,4 +1,8 @@
 {
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
   "permissions": {
     "defaultMode": "default",
     "deny": [
@@ -273,52 +277,11 @@
       "Bash(docker logs:*)",
       "Bash(docker inspect:*)",
       "Bash(docker-compose:*)",
-      "Bash(docker compose:*)"
-    ],
-    "ask": [
-      "Bash(rm:*)",
-      "Bash(mv:*)",
-      "Bash(cp -r:*)",
-      "Bash(git push:*)",
-      "Bash(git restore:*)",
-      "Bash(chmod:*)",
-      "Bash(chown:*)",
-      "Bash(ln:*)",
-      "Bash(mkdir -p:*)",
-      "Bash(touch:*)",
-      "Bash(curl:*)",
-      "Bash(wget:*)",
-      "Bash(http:*)",
-      "Bash(ssh:*)",
-      "Bash(scp:*)",
-      "Bash(rsync:*)",
-      "Bash(tar:*)",
-      "Bash(zip:*)",
-      "Bash(unzip:*)",
-      "Bash(gzip:*)",
-      "Bash(gunzip:*)",
-      "Bash(npm install *)",
-      "Bash(pip install *)",
-      "Bash(docker run:*)",
-      "Bash(docker exec:*)",
-      "Bash(docker build:*)",
-      "Bash(docker stop:*)",
-      "Bash(docker start:*)",
-      "Bash(crontab:*)",
-      "Bash(systemctl:*)",
-      "Bash(service:*)",
-      "Bash(launchctl:*)",
-      "Bash(open:*)",
-      "Bash(xdg-open:*)",
-      "Edit(.gitignore)",
-      "Edit(.github/**)",
-      "Edit(Makefile)",
-      "Edit(Dockerfile)",
-      "Edit(docker-compose*.yml)",
-      "Edit(package.json)",
-      "Edit(pyproject.toml)",
-      "Edit(Cargo.toml)",
-      "Edit(go.mod)"
+      "Bash(docker compose:*)",
+
+      "mcp__claude-in-chrome__*",
+      "mcp__plugin_context7_context7__*",
+      "mcp__plugin_playwright_playwright__*"
     ]
   }
 }
